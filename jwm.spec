@@ -1,14 +1,14 @@
 %define name    jwm
 %define version	2.0.1
 %define theirversion 2.0.1
-%define release %mkrel 1
+%define release %mkrel 2
 
 Name:		%{name}
 Summary:	Lightweight X11 Window Manager
 Version:	%{version}
 Release:	%{release}
 License:	GPL
-Group:		Graphical desktop/Window managers
+Group:		Graphical desktop/Other
 
 URL:		http://joewing.net/programs/jwm/
 Source:		jwm-%{theirversion}.tar.bz2
