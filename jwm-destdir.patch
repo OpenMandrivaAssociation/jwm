@@ -1,0 +1,24 @@
+diff -ur ../jwm-500.orig/Makefile.in ./Makefile.in
+--- ../jwm-500.orig/Makefile.in	2011-08-30 17:47:12.517158974 -0300
++++ ./Makefile.in	2011-08-30 17:48:31.003153607 -0300
+@@ -1,6 +1,6 @@
+ 
+-SYSCONF = @SYSCONF@
+-MANDIR = @MANDIR@
++SYSCONF = $(DESTDIR)@SYSCONF@
++MANDIR = $(DESTDIR)@MANDIR@
+ VERSION ?= @VERSION@
+ 
+ all:
+diff -ur ../jwm-500.orig/src/Makefile.in ./src/Makefile.in
+--- ../jwm-500.orig/src/Makefile.in	2011-08-30 17:47:12.517158974 -0300
++++ ./src/Makefile.in	2011-08-30 17:49:07.077151138 -0300
+@@ -2,7 +2,7 @@
+ CC = @CC@
+ CFLAGS = @CFLAGS@
+ LDFLAGS = @LDFLAGS@
+-BINDIR = @BINDIR@
++BINDIR = $(DESTDIR)@BINDIR@
+ 
+ VPATH=.:os
+ 

@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=JWM
+Comment=Joe's Window Manager
+Exec=jwm
+TryExec=jwm
+Type=XSession
