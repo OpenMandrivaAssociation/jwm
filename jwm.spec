@@ -1,7 +1,7 @@
 Name:		jwm
 Summary:	Lightweight X11 Window Manager
 Version:	2.1.0
-Release:	1
+Release:	2
 License:	GPL
 Group:		Graphical desktop/Other
 URL:		http://joewing.net/programs/jwm/
