@@ -4,7 +4,7 @@ Version:	2.1.0
 Release:	2
 License:	GPL
 Group:		Graphical desktop/Other
-URL:		http://joewing.net/programs/jwm/
+URL:		https://joewing.net/programs/jwm/
 Source:		http://joewing.net/programs/jwm/releases/%{name}-%{version}.tar.bz2
 Source1:	%{name}.desktop
 Patch0:		jwm-destdir.patch
