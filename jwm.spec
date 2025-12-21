@@ -8,6 +8,11 @@ URL:		https://joewing.net/programs/jwm/
 Source:		http://joewing.net/programs/jwm/releases/%{name}-%{version}.tar.bz2
 Source1:	%{name}.desktop
 Patch0:		jwm-destdir.patch
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	jpeg-devel
 BuildRequires:	pkgconfig(fribidi)
 BuildRequires:	pkgconfig(libpng)
